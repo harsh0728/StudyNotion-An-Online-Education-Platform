@@ -4,13 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm start",
+    "start": "node index.js",
     "dev": "nodemon index.js",
-    "build": "npm install",
-    "setup-project": "npm i && cd .. && npm i",
-    "setup-production-app": "npm i && cd .. && npm i && npm run build ",
-    "server": "nodemon server",
-    "client": "cd .. && npm run dev"
+    "build":"npm i"
   },
   "keywords": [],
   "author": "",
