@@ -23,9 +23,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: 'https://studynotion-dsgs.onrender.com',
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    allowedHeaders: ["Content-Type", "Authorization"],
+    origin: "https://studynotion-dsgs.onrender.com",
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
     optionsSuccessStatus: 204,
   })
